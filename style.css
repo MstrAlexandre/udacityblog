@@ -1,0 +1,64 @@
+body {
+  display: grid;
+}
+
+header {
+  padding: 2px;
+  border-bottom: 1px groove #befcff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#empty {
+  order: 1;
+}
+
+#title {
+  order: 2;
+}
+
+#login {
+  order: 3;
+}
+
+h1,
+h2,
+h3 {
+  color: #00818c;
+}
+
+h1 {
+  font-family: "Comforter", cursive;
+  font-size: 48px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a {
+  color: #00b7c2;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 4px groove #befcff;
+  justify-items: space-evenly;
+}
+
+.blog-previews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #befcff;
+  border: none;
+  border-radius: 50%;
+  height: 2rem;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+}
+
+footer {
+  border-top: 1px solid #befcff;
+}
