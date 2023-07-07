@@ -8,52 +8,54 @@
     <meta name="description" content="an example blog for a project" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Comforter&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <header>
         <div id="empty"></div>
         <h1 id="title">Belancourt.dev</h1>
         <button class="accent" id="login">Login</button>
       </header>
 
-      <main>
-        <div class="sidebar">
-          <h3><a>Profile</a></h3> <br />
-          <h3><a>Main</a></h3> <br />
-          <h3><a>Categories</a></h3> <br />
-          <h3><a>New Post</a></h3> <br />
-        </div>
+      <div class="sidebar">
+        <h3><a href="">Profile</a></h3>
+        <h3><a href="">Main</a></h3>
+        <h3><a href="">Categories</a></h3>
+        <h3><a href="">New Post</a></h3>
+      </div>
 
-        <section class="blog-previews">
-          <card>
-            <h2>Blog Post 1</h2>
-            <h3>Subheading Text</h3>
-            <p>Preview text</p>
-          </card>
+      <section class="blog-previews">
+        <card>
+          <a href="./blogpost/blogpost.html"><h2>Blog Post 1</h2></a>
+          <h3>Subheading Text</h3>
+          <p>Preview text</p>
+        </card>
 
-          <card>
-            <h2>Blog Post 2</h2>
-            <h3>Subheading Text</h3>
-            <p>Preview text</p>
-          </card>
+        <card>
+          <a href="./blogpost/blogpost.html"><h2>Blog Post 2</h2></a>
+          <h3>Subheading Text</h3>
+          <p>Preview text</p>
+        </card>
 
-          <card>
-            <h2>Blog Post 3</h2>
-            <h3>Subheading Text</h3>
-            <p>Preview text</p>
-          </card>
+        <card>
+          <a href="./blogpost/blogpost.html"><h2>Blog Post 3</h2></a>
+          <h3>Subheading Text</h3>
+          <p>Preview text</p>
+        </card>
 
-          <card>
-            <h2>Blog Post 4</h2>
-            <h3>Subheading Text</h3>
-            <p>Preview text</p>
-          </card>
-        </section>
-        <footer>
-          <p>Copyright Hoopla Gang 2023</p>
-        </footer>
-      </main>
-    </div>
+        <card>
+          <a href="./blogpost/blogpost.html"><h2>Blog Post 4</h2></a>
+          <h3>Subheading Text</h3>
+          <p>Preview text</p>
+        </card>
+      </section>
+
+      <footer>
+        <p>Copyright Hoopla Gang 2023</p>
+      </footer>
+    </main>
   </body>
 </html>

@@ -1,0 +1,14 @@
+.mainblog {
+    grid-area: mn;
+    padding: 3% 20%;
+}
+
+.related {
+    grid-area: rl;
+    border-left: 4px double #befcff;
+    color: #00B7C2;
+    list-style-type: none;
+    padding: 10%;
+    text-align: center;
+    justify-items: center;
+}
